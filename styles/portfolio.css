@@ -1,0 +1,47 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: var(--dark-01, #181818);
+
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Prinary button */
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+
+}
